@@ -71,7 +71,9 @@ obtainInstruction("steak", 0).then((step0) => {
             document.querySelector("#steak").innerHTML += `<li>${step5}</li>`;
             obtainInstruction("steak", 6).then((step6) => {
               document.querySelector("#steak").innerHTML += `<li>${step6}</li>`;
-              document.querySelector("#steak").innerHTML += `<li>Steak is ready!</li>`;
+              document.querySelector(
+                "#steak"
+              ).innerHTML += `<li>Steak is ready!</li>`;
             });
           });
         });
@@ -79,6 +81,11 @@ obtainInstruction("steak", 0).then((step0) => {
     });
   });
 });
+
+document.querySelector("#mashedPotatoesImg").removeAttribute("hidden");
+document.querySelector("#steakImg").removeAttribute("hidden");
+document.querySelector("#brusselsSproutsImg").removeAttribute("hidden");
+document.querySelector("#broccoliImg").removeAttribute("hidden");
 
 // ... Your code here
 
