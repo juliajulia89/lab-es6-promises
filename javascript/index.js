@@ -65,17 +65,13 @@ obtainInstruction("steak", 0).then((step0) => {
       document.querySelector("#steak").innerHTML += `<li>${step2}</li>`;
       obtainInstruction("steak", 3).then((step3) => {
         document.querySelector("#steak").innerHTML += `<li>${step3}</li>`;
-
         obtainInstruction("steak", 4).then((step4) => {
           document.querySelector("#steak").innerHTML += `<li>${step4}</li>`;
           obtainInstruction("steak", 5).then((step5) => {
             document.querySelector("#steak").innerHTML += `<li>${step5}</li>`;
             obtainInstruction("steak", 6).then((step6) => {
               document.querySelector("#steak").innerHTML += `<li>${step6}</li>`;
-
-              document.querySelector(
-                "#steak"
-              ).innerHTML += `<li>Steak is ready!</li>`;
+              document.querySelector("#steak").innerHTML += `<li>Steak is ready!</li>`;
             });
           });
         });
