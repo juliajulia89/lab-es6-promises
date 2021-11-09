@@ -82,6 +82,8 @@ obtainInstruction("steak", 0).then((step0) => {
   });
 });
 
+//
+
 document.querySelector("#mashedPotatoesImg").removeAttribute("hidden");
 document.querySelector("#steakImg").removeAttribute("hidden");
 document.querySelector("#brusselsSproutsImg").removeAttribute("hidden");
